@@ -40,18 +40,18 @@ https://colab.research.google.com/drive/1pU76VY2_q49yPOio20xvltPwC46dPvp1 <br />
 Optional: If you want to use model yolov8. You will need GPU: RTX, T4, A100 or something it could run CUDA :D 
 
 ### Pizza Cuter Map
-1.Download TIF MAP
-2.Convert TIP TO PNG
-3.Split large image to 1280x1280 and resize to 640x640 for put in to Yolov8 model
-4.Ready to Prediction or Training
+1.Download TIF MAP<br />
+2.Convert TIP TO PNG<br />
+3.Split large image to 1280x1280 and resize to 640x640 for put in to Yolov8 model<br />
+4.Ready to Prediction or Training<br />
 
 ### Landing Zone
-It is like a file manager that can be used to connect to Google Drive or other devices
+It is like a file manager that can be used to connect to Google Drive or other devices<br />
 
 ## License
 
 
 ## Credit
-Natakorn Vijaranayarn - Geologist
-Phusin Tararukmongkol - Developer & AI 
-Noppasit Sotawong - Worker
+Natakorn Vijaranayarn - Geologist<br />
+Phusin Tararukmongkol - Developer & AI <br />
+Noppasit Sotawong - Worker<br />
