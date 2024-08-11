@@ -1,12 +1,10 @@
 # ObjLCC-tools
-Developing....
-
-
+![image](https://github.com/user-attachments/assets/53e317db-ce41-4e22-b579-bd1c49e8df17)
 
 ## Installation
 No need install on your device. I trying to work everything on cloud machine
 Optional: If you want to work on Docker It work! but you need to change path in my code.
-![image](https://github.com/user-attachments/assets/53e317db-ce41-4e22-b579-bd1c49e8df17)
+
 
 ## Model
 | Model  | Version | Result | Comment |
@@ -24,9 +22,11 @@ Before I get into the details, let me talk about the order of use.
 Go to Colab -> Prepare environment -> Split Map lunar (LROC) -> Prediction -> Reassemble Map & Label -> Convert To SCC or SHP (ฺBase on Qgis)
 
 | Section | Status |
+| ------------- | ------------- |
 | Document Manual | Working in process |
 | Prepare environment | Ready to use |
 | Pizza Cutter Map | I need be sorted agian but ready to use |
+| Landing Zone | I need be sorted agian but ready to use |
 | Prediction | Ready to use |
 | Convert To SCC or SHP | Woring in process |
 
@@ -44,7 +44,8 @@ Optional: If you want to use model yolov8. You will need GPU: RTX, T4, A100 or s
 4.Ready to Prediction or Training
 
 ### Landing Zone
-1.
+It is like a file manager that can be used to connect to Google Drive or other devices
+
 ## License
 
 
