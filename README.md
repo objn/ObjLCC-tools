@@ -4,11 +4,11 @@ Developing....
 
 
 ## Installation
-No need install on your device. I work everything on cloud machine
+No need install on your device. I trying to work everything on cloud machine
+Optional: If you want to work on Docker It work! but you need to change path in my code.
+![image](https://github.com/user-attachments/assets/53e317db-ce41-4e22-b579-bd1c49e8df17)
 
-## Usage
-
-### Model
+## Model
 | Model  | Version | Result | Comment |
 | ------------- | ------------- | ------------- | ------------- |
 | Objn001  | alpha | Very bad | Need more training |
@@ -16,21 +16,39 @@ No need install on your device. I work everything on cloud machine
 | Objn003 | Release | Very Good | It perfect for detect Lunar crater |
 
 ![M1335510874LC_segment_2_34_png rf dd90d4f8824e9a4bbeb3da1559f6f84e](https://github.com/user-attachments/assets/617f9caa-31f2-470e-bb88-3a70bb997bc4)
+(conf=0.2 imgsz=640)
 
 
+## Plan of Project
+Before I get into the details, let me talk about the order of use.
+Go to Colab -> Prepare environment -> Split Map lunar (LROC) -> Prediction -> Reassemble Map & Label -> Convert To SCC or SHP (ฺBase on Qgis)
+
+| Section | Status |
+| Document Manual | Working in process |
+| Prepare environment | Ready to use |
+| Pizza Cutter Map | I need be sorted agian but ready to use |
+| Prediction | Ready to use |
+| Convert To SCC or SHP | Woring in process |
+
+## Usage
 
 https://colab.research.google.com/drive/1pU76VY2_q49yPOio20xvltPwC46dPvp1
 1.Run all cell in Prepare environment/n
 ![image](https://github.com/user-attachments/assets/1d75e4a9-4d69-41cf-8853-574b0bce25e0)
 Optional: If you want to use model yolov8. You will need GPU: RTX, T4, A100 or something it could run CUDA :D 
 
-
 ### Pizza Cuter Map
+1.Download TIF MAP
+2.Convert TIP TO PNG
+3.Split large image to 1280x1280 and resize to 640x640 for put in to Yolov8 model
+4.Ready to Prediction or Training
 
-
+### Landing Zone
+1.
 ## License
 
+
 ## Credit
-Natakorn Vijaranayarn - Geologist & Astronomer
+Natakorn Vijaranayarn - Geologist
 Phusin Tararukmongkol - Developer & AI 
 Noppasit Sotawong - Worker
