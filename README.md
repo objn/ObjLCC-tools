@@ -35,9 +35,9 @@ Go to Colab -> Prepare environment -> Split Map lunar (LROC) -> Prediction -> Re
 ## Usage
 
 https://colab.research.google.com/drive/1pU76VY2_q49yPOio20xvltPwC46dPvp1 <br />
-1.Run all cell in Prepare environment <br />
 ![image](https://github.com/user-attachments/assets/1d75e4a9-4d69-41cf-8853-574b0bce25e0) <br />
-Optional: If you want to use model yolov8. You will need GPU: RTX, T4, A100 or something it could run CUDA :D 
+1.Run all cell in Prepare environment <br />
+Optional: If you want to use model yolov8. You will need GPU: RTX, T4, A100 or something it could run CUDA :D <br />
 
 ### Pizza Cuter Map
 1.Download TIF MAP<br />
