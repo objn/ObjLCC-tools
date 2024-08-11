@@ -38,18 +38,22 @@ https://colab.research.google.com/drive/1pU76VY2_q49yPOio20xvltPwC46dPvp1 <br />
 ![image](https://github.com/user-attachments/assets/1d75e4a9-4d69-41cf-8853-574b0bce25e0) <br />
 1.Run all cell in Prepare environment <br />
 Optional: If you want to use model yolov8. You will need GPU: RTX, T4, A100 or something it could run CUDA :D <br />
+2.Download TIF MAP<br />
+3.Convert TIP TO PNG<br />
+4.Split large image to 1280x1280 and resize to 640x640 for put in to Yolov8 model<br />
+5.Ready to Prediction or Training<br />
+6.Predict by yolov8 model<br />
+7.Reassemble Map & Label (Need to update)<br />
+8.Convert Map & Labels to SCC OR SHP(Need to update)<br />
 
 ### Pizza Cuter Map
-1.Download TIF MAP<br />
-2.Convert TIP TO PNG<br />
-3.Split large image to 1280x1280 and resize to 640x640 for put in to Yolov8 model<br />
-4.Ready to Prediction or Training<br />
+This is the part about cutting and joining scattered images and labels into a single file.
 
 ### Landing Zone
 It is like a file manager that can be used to connect to Google Drive or other devices<br />
 
 ## License
-
+GPL-3.0 license
 
 ## Credit
 Natakorn Vijaranayarn - Geologist<br />
