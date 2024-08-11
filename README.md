@@ -20,7 +20,8 @@ Optional: If you want to work on Docker It work! but you need to change path in 
 
 ## Plan of Project
 Before I get into the details, let me talk about the order of use. <br />
-Go to Colab -> Prepare environment -> Split Map lunar (LROC) -> Prediction -> Reassemble Map & Label -> Convert To SCC or SHP (ฺBase on Qgis)
+Go to Colab -> Prepare environment -> Split Map lunar (LROC) -> Prediction -> Reassemble Map & Label -> Convert To SCC or SHP <br />
+(ฺBase on Qgis)
 
 | Section | Status |
 | ------------- | ------------- |
